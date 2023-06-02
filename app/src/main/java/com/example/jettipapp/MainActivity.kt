@@ -22,8 +22,6 @@ class MainActivity : ComponentActivity() {
             // A surface container using the 'background' color from the theme
             MyApp {
                 Column(modifier = Modifier.padding(15.dp)) {
-                    TopHeader()
-                    Spacer(modifier = Modifier.height(20.dp))
                     MainContent()
                 }
             }
